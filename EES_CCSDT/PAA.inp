@@ -1,0 +1,22 @@
+! STEOM-DLPNO-CCSD RIJK def2-TZVP def2/JK def2-TZVP/C tightSCF noautostart miniprint nopop
+%maxcore  180000
+%pal nprocs   56 end
+%cpcm
+smd true
+SMDsolvent "water"
+end
+%mdci
+nroots 5
+dotriplet true
+end
+* xyz   0   1
+C      1.84541126   -0.41294921    0.00218866
+C      0.39479392    0.00537486   -0.01977315
+O     -0.43094674   -0.98407959   -0.01011158
+O      0.04529889    1.18685667   -0.02047517
+O     -2.21120960    0.01775293    0.02219507
+H      1.97804743   -1.45224852   -0.33078564
+H      2.20156411   -0.31803500    1.04326811
+H      2.41681640    0.27944806   -0.63644979
+H     -1.53965566    0.79959180    0.01830147
+ *
