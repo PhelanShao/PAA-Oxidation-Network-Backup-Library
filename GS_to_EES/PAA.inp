@@ -1,0 +1,22 @@
+! PBE0 def2-SV(P) def2/J def2-SVP/C RIJCOSX tightSCF opt noautostart miniprint nopop
+%maxcore  180000
+%pal nprocs   56 end
+%cpcm
+smd true
+SMDsolvent "water"
+end
+%tddft
+nroots 30
+mode riints_disk
+end
+* xyz   0   1
+C      1.79000097   -0.42137635    0.00387073
+C      0.41912149    0.17247782   -0.01243142
+O     -0.52594238   -0.77588385   -0.01273259
+O      0.13943098    1.33529806   -0.00604391
+O     -1.82388376   -0.24478290    0.01577167
+H      1.77564781   -1.45375966   -0.31548160
+H      2.16464760   -0.36486824    1.02069799
+H      2.43157876    0.16807588   -0.63723094
+H     -1.67048146    0.70653125    0.01193806
+ *
